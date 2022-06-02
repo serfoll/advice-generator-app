@@ -6,7 +6,8 @@ const Footer = styled.div`
   position: absolute;
   bottom: 20px;
   font-size: 12px;
-  left: calc(50% - (${(props) => props.footerWidth / 2}px));
+  max-width: 340px;
+  left: calc(50% - (${(props) => props.footerWidth / 2 || 340}px));
   color: ${Colors['light-cyan']};
 
   a {
