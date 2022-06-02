@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React parcel boilerplate",
   "scripts": {
-    "start": "npm install && parcel src/index.html --port 3005 --open",
+    "start": "parcel src/index.html --port 3005 --open",
     "deploy:src": "parcel build src/index.html"
   },
   "repository": {
