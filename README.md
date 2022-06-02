@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/serfoll/advice-generator-app)
-- Live Site URL: [](https://thriving-faloodeh-e03ea6.netlify.app/)
+- Solution URL: [github](https://github.com/serfoll/advice-generator-app)
+- Live Site URL: [netlify](https://thriving-faloodeh-e03ea6.netlify.app/)
 
 ## My process
 
