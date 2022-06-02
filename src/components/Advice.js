@@ -29,6 +29,13 @@ const Advice = () => {
     fetchRandomAdvice();
   }, []);
 
+  const getAdvice = (e) => {
+    e.preventDefault();
+    console.log('clicked');
+
+    fetchRandomAdvice();
+  };
+
   return (
     <AdviceStyle.Container>
       <AdviceStyle.Title>Advice #{newAdvice.id}</AdviceStyle.Title>
@@ -42,7 +49,7 @@ const Advice = () => {
 
       <AdviceStyle.Dice
         onClick={(e) => {
-          fetchRandomAdvice();
+          getAdvice(e);
         }}
       >
         <img src={diceIcon} alt="dice icon" />
