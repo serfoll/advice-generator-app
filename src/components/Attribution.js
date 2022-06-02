@@ -39,11 +39,7 @@ const Attribution = () => {
   }, []);
 
   return (
-    <Footer
-      role="footer"
-      id="footer"
-      footerWidth={Math.round(footerRects?.width ?? 0)}
-    >
+    <Footer id="footer" footerWidth={Math.round(footerRects?.width ?? 0)}>
       Challenge by{' '}
       <a
         href="https://www.frontendmentor.io?ref=challenge"
