@@ -45,9 +45,13 @@ const Dice = styled.button`
   border-radius: 50%;
   border: none;
   cursor: pointer;
-  :hover,
   :active {
     box-shadow: 0 0 30px 0 ${Colors['neon-green']};
+  }
+  @media (min-width: 1440px) {
+    :hover {
+      box-shadow: 0 0 30px 0 ${Colors['neon-green']};
+    }
   }
 `;
 
