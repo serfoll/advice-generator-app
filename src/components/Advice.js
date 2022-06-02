@@ -18,7 +18,9 @@ const Advice = () => {
   const [newAdvice, setAdvice] = useState({});
 
   const fetchRandomAdvice = async () => {
-    const randAdvice = await fetch('https://api.adviceslip.com/advice')
+    const randAdvice = await fetch('https://api.adviceslip.com/advice', {
+      cache: 'no-store',
+    })
       .then((response) => response.json())
       .catch((err) => err);
 
@@ -48,6 +50,7 @@ const Advice = () => {
       </AdviceStyle.Divider>
 
       <AdviceStyle.Dice
+        type="submit"
         onClick={(e) => {
           getAdvice(e);
         }}
