@@ -30,7 +30,7 @@ Users should be able to:
 
 #### Desktop
 
-![](./screenshot.png)
+![](./screenshot-desktop.png)
 
 #### Mobile
 
