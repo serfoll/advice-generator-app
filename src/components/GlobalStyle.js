@@ -56,8 +56,15 @@ export default createGlobalStyle`
   }
 
   body{
+    width: 100vw;
+    height: 100vh;
     font-family: 'Manrope',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
       Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
     background-color: ${Colors['dark-blue']};
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 `;
